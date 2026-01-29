@@ -5,9 +5,10 @@
 # carro custa R$ 60 por dia e R$ 0,15 por km rodado.
 
 #variaveis
-dias_locados = int(input("DIas alugados: "))
+dias_locados = int(input("Dias alugados: "))
 km_percorridos = float(input("Quantos km foram percorridos? "))
 
 #calculo do preco total
-total = (dias_locados*60)+(km_percorridos*0.15)
+total = (dias_locados * 60)+(km_percorridos * 0.15)
+
 print(f"O valor total a pagar é: " , total, "R$")
